@@ -1,0 +1,5 @@
+product=(1, 5, 8 ,12 ,15, 18 ,191)
+producter=1
+for i in range(7):
+  producter=producter*product[i]
+  print(producter)
