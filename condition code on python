@@ -1,0 +1,39 @@
+number = int(input("enter a big number"))
+while number < 100:
+  print(number)
+  number += 1
+
+age = input("Enter your age people betweenn 15 and 5 are allowed ")
+if age.upper() == "OWNER":
+  print("welcome secret person")
+elif age.isdigit() == True:
+  age = int(age)
+  if age <= 5:
+    print("you are not allowed to young")
+  elif age >= 15:
+    print("you are tooo old get out")
+  else:
+    print("you are the only who are allowed till now")
+else:
+  print(
+      "beep boop beep boop invalid information robot noises prr scrr beep bepp type correct information "
+  )number = int(input("enter a big number"))
+while number < 100:
+  print(number)
+  number += 1
+
+age = input("Enter your age people betweenn 15 and 5 are allowed ")
+if age.upper() == "OWNER":
+  print("welcome secret person")
+elif age.isdigit() == True:
+  age = int(age)
+  if age <= 5:
+    print("you are not allowed to young")
+  elif age >= 15:
+    print("you are tooo old get out")
+  else:
+    print("you are the only who are allowed till now")
+else:
+  print(
+      "beep boop beep boop invalid information robot noises prr scrr beep bepp type correct information "
+  )
