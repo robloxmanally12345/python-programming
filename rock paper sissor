@@ -1,0 +1,30 @@
+#girves a number between 50 and 51 (both incuded)
+# randint function is used to generate an interger between the given range
+# randrange function is used to provied a random number in a given range but with a step value meaning the second number is how amny digits you skip
+import random
+#print(random.randrange(10,999,100))
+print("hello dumb human lets play rock paper sisccors i am player1 you are player2 ok ?????")
+userchoice=input("what do ypu choose betwwen rock paper siscccors to riaval player 2").lower()
+c=random.randint(1,3)
+if c== 1:
+  computerchoice= "rock"
+elif c== 2:
+  computerchoice= "paper"
+else:
+  computerchoice= "scissors"
+print("i am the compuuuter i chose", computerchoice)
+if computerchoice== "rock" and userchoice== "paper":
+  print("player 1 wins")
+elif computerchoice== "paper" and userchoice== "rock":
+  print("player 1 wins")
+elif computerchoice== "scissors" and userchoice== "paper":
+  print("player 1 wins")
+elif computerchoice== "rock" and userchoice== "paper":
+  print("player 2 wins")
+elif computerchoice== "paper" and userchoice== "scissors":
+  print("player2 wins")
+elif computerchoice== "scissors" and userchoice== "rock":
+  print("player2 wins")
+else:
+  print("its a tie")
+print("this round has ended")
