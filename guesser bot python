@@ -1,0 +1,19 @@
+import random
+
+number = random.randint(0, 100)
+thinker = int(input("I will generate a number between 0 to 100. You have to guess it: "))
+attempts = 1
+
+while thinker != number and attempts < 7:
+    if thinker > number:
+        print("Too high, guess lower.")
+    elif thinker < number:
+        print("Too low, guess higher.")
+
+    thinker = int(input("Try again: "))
+    attempts += 1
+
+if thinker == number:
+    print("Correct! You guessed it!")
+else:
+    print("Out of attempts! The number was", number)
