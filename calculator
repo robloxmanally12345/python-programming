@@ -1,0 +1,13 @@
+print("ekashs calcultor")
+number=int(input("I will multiplty divide add and subtract any number ")) 
+sign=input("give me a sign out of these + - * / star is multiply and last is divide")
+number2=int(input("give me a second number")) 
+if sign=="*":
+   result=number*number2
+if sign=="+":
+   result=number+number2
+if sign=="-":
+    result=number-number2
+if sign=="/":
+    result=number/number
+print("result",result)
