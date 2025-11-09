@@ -1,0 +1,31 @@
+def sum (x,y):
+    return x+y
+def difference (x,y):
+    return(x-y)
+def product(x,y):
+    return(x*y)
+def divison(x,y):
+    return(x/y)
+no1=float(input("enter the first number to divide multiply subtract or add"))
+no2=float(input("enter the second number"))
+print("/n")
+print("enter 1 for sum")
+print("enter 2 for difference")
+print("enter 3 for product")
+print("enter 4 for division")
+userchoice=int(input('enter any one of the given numbers to choose you arithamethic'))
+if userchoice==1:
+    ans=sum(num1,num2)
+    print("answer is :", ans )
+elif userchoice==2 :
+    ans=difference(no1,no2)
+    print("answer is :",ans)
+elif userchoice==3 :
+    ans=product(no1,no2)
+    print("answer is :",ans)
+elif userchoice==4 :
+    ans= divison(no1,no2)
+    print("answer is :",ans)
+else:
+    print("wrong choice")
+
